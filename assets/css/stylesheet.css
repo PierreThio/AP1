@@ -1,0 +1,106 @@
+@font-face{
+    font-family: "rubikregular";
+    src: url("../font/rubik-regular-webfont.eot");
+    src: url("../font/rubik-regular-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../font/rubik-regular-webfont.woff2") format("woff2"),
+         url("../font/rubik-regular-webfont.woff") format("woff"),
+         url("../font/rubik-regular-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "rubikbold";
+    src: url("../font/rubik-bold-webfont.eot");
+    src: url("../font/rubik-bold-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../font/rubik-bold-webfont.woff2") format("woff2"),
+         url("../font/rubik-bold-webfont.woff") format("woff"),
+         url("../font/rubik-bold-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    margin: 0%;
+    font-family: 'rubikregular';
+    background-color: #1b1c1e;
+    color: white;
+}
+nav{
+    background-color: #2b2b2b;
+}
+.container-fluid{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+@media (min-width: 576px){
+    .navbar-expand-sm .navbar-nav .nav-link{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: gold;
+}
+h1{
+    color: gold;
+}
+h2{
+    color: gold;
+}
+.text-justify{
+    text-align: justify;
+}
+.btn{
+    color: #1b1c1e;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gold;
+    margin: 1em;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.btn:hover{
+    background-color: #1b1c1e;
+    border: 2px solid gold;
+    color: gold;
+}
+.col-sm-6{
+    padding: 0%;
+}
+section{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    margin-top: 17em;
+    color: white;
+    padding-left: 2rem;
+}
+table th{
+    color: gold;
+}
+table td{
+    color: white;
+}
+.tdgras{
+    font-weight: bold;
+}
+#tableau{
+    width: 733px;
+    height: 733px;
+}
+.sources{
+    list-style: none;
+    color: gold;
+}
+.sources:hover{
+    color: white;
+}
+#abutton{
+    text-decoration: none;
+}
